@@ -1,0 +1,11 @@
+{
+  "experiment": "own_sync_tol",
+  "student_id": "2A202602521",
+  "method": "scripts/lab.sh dbt run --select silver_frame_telemetry --vars '{sync_tol_ms: N}' (không sửa dbt_project.yml), sau đó chạy lại với giá trị gốc 150",
+  "results": {
+    "50":  {"drive_a": {"frames": 602, "sync_lost": 272, "pct": 45.18}, "drive_b": {"frames": 644, "sync_lost": 328, "pct": 50.93}},
+    "100": {"drive_a": {"frames": 602, "sync_lost": 137, "pct": 22.76}, "drive_b": {"frames": 644, "sync_lost": 187, "pct": 29.04}},
+    "150": {"drive_a": {"frames": 602, "sync_lost": 7, "pct": 1.16}, "drive_b": {"frames": 644, "sync_lost": 7, "pct": 1.09}},
+    "300": {"drive_a": {"frames": 602, "sync_lost": 7, "pct": 1.16}, "drive_b": {"frames": 644, "sync_lost": 7, "pct": 1.09}}
+  }
+}

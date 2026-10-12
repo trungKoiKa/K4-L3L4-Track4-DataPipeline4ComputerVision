@@ -2,12 +2,12 @@
 
 > Điền **bằng lời và số liệu của chính bạn** (lấy từ đầu ra của `scripts/lab.sh step ...` và từ `report/evidence/*.json`). Bài làm công khai trên GitHub; giảng viên đối chiếu với lịch sử commit và với bài của các bạn khác. Mỗi câu 3 đến 8 dòng là đủ.
 
-| | |
-|---|---|
-| Họ và tên | `<điền>` |
-| MSSV (đúng bằng `LAB_STUDENT_ID` trong `.env`) | `<điền>` |
-| GitHub | `<điền: tên tài khoản>` |
-| Trip dùng cho bài tập sập và chạy lại (xem GUIDE, bước 5) | `<điền: trip-xxxxx>` |
+|                                                           |                                                               |
+| --------------------------------------------------------- | ------------------------------------------------------------- |
+| Họ và tên                                                 | `Hoàng Trung Anh`                                             |
+| MSSV (đúng bằng `LAB_STUDENT_ID` trong `.env`)            | `2A202602521`                                                 |
+| GitHub                                                    | [trungKoiKa (Hoang Trung Anh)](https://github.com/trungKoiKa) |
+| Trip dùng cho bài tập sập và chạy lại (xem GUIDE, bước 5) | `<điền: trip-xxxxx>`                                          |
 
 ## Kết quả cuối
 
